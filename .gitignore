@@ -1,0 +1,5 @@
+__pycache__
+*.pyc
+.cache
+.eggs
+django_deploy_migrate.egg-info

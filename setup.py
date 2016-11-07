@@ -1,0 +1,36 @@
+from setuptools import setup
+
+setup(
+        name='django-deploy-migrate',
+        version='0.0.1',
+        url='https://github.com/willhardy/django-deploy-migrate',
+        license='BSD',
+        author='Will Hardy',
+        author_email='django@willhardy.com.au',
+        description='Deploy some, but not all migrations on deploy.',
+        keywords='django deploy migrations',
+        long_description=__doc__,
+        py_modules=['django_deploy_migrate'],
+        zip_safe=False,
+        include_package_data=True,
+        platforms='any',
+        test_suite='django_deploy_migrate.tests',
+        setup_requires=['pytest-runner'],
+        tests_require=['pytest'],
+        classifiers=[
+                    'Development Status :: 3 - Alpha',
+                    'Environment :: Web Environment',
+                    'Intended Audience :: Developers',
+                    'License :: OSI Approved :: BSD License',
+                    'Operating System :: OS Independent',
+                    'Programming Language :: Python',
+                    'Topic :: Internet :: WWW/HTTP :: Dynamic Content',
+                    'Topic :: Software Development :: Libraries :: Python Modules',
+                    'Programming Language :: Python',
+                    'Programming Language :: Python :: 3',
+                    'Programming Language :: Python :: 3.2',
+                    'Programming Language :: Python :: 3.3',
+                    'Programming Language :: Python :: 3.4',
+                    'Programming Language :: Python :: 3.5',
+                ]
+)
